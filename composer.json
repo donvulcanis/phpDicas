@@ -1,0 +1,15 @@
+{
+    "name": "luisv/php-dicas",
+    "autoload": {
+        "psr-4": {
+            "Luisv\\PhpDicas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "anarchristian",
+            "email": "luisvulcanis@proton.me"
+        }
+    ],
+    "require": {}
+}
