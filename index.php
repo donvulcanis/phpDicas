@@ -2,4 +2,9 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-echo '<h1>Hello World!</h1>';
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
+require_once 'src/conf/pdo.php';
+
+include 'src/aula001/consultaUser.php';
